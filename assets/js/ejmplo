@@ -1,0 +1,6 @@
+<script type="text/template" id="ficha_template">
+<div class="fichaCliente">
+<div class="campo"><div class="nombreCampo">Nombre:</div><%=nombre%></div>
+<div class="campo"><div class="nombreCamo">Apellidos:</div><%=apellidos%></div>
+</div>
+</script

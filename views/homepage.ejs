@@ -1,8 +1,103 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://timeline.ghostthemes.me/ -->
+<html lang="en"><div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></div><script id="tinyhippos-injected">if (window.top.ripple) { window.top.ripple("bootstrap").inject(window, document); }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>computamadre</title>
+    <!--[if lt IE 9]>
+     <script src="/assets/js/html5.js"></script>
+    <![endif]-->
+    <meta name="description" content="Minimal, Parallax &amp; Responsive Theme">
+    <link rel="stylesheet" type="text/css" href="./Ghost Timeline_files/reset.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./Ghost Timeline_files/css">
+    <link rel="stylesheet" type="text/css" href="./Ghost Timeline_files/styles.css">
+    <meta name="generator" content="Ghost 0.4">
+<link rel="alternate" type="application/rss+xml" title="Ghost Timeline" href="http://timeline.ghostthemes.me/rss/">
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="js/handlebars-v3.0.0.js"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
+<style type="text/css"></style><style type="text/css">.jlhlebbhengjlhmcjebbkambaekglhkf {top: 0px; left: 0px;min-width: 30px;max-width: 300px;font-size: 13px;font-family: arial, helvetica, sans-serif;opacity: .93;padding:0px;position:absolute;display:block;z-index: 999997;font-style: normal;font-variant: normal;font-weight: normal;}#jlhlebbhengjlhmcjebbkambaekglhkf_up{text-align: center;padding:0px;margin: 0px;}#jlhlebbhengjlhmcjebbkambaekglhkf_cont{background-color: #729FCF;font-family: arial, helvetica, sans-serif-webkit-box-shadow: #729FCF 0px 0px 2px;color: #FFFFFF;padding:7px;-webkit-border-radius: 5px;}#jlhlebbhengjlhmcjebbkambaekglhkf_down{text-align: center;padding:0px;margin: 0px;}</style><style type="text/css">.jlhlebbhengjlhmcjebbkambaekglhkf {top: 0px; left: 0px;min-width: 30px;max-width: 300px;font-size: 13px;font-family: arial, helvetica, sans-serif;opacity: .93;padding:0px;position:absolute;display:block;z-index: 999997;font-style: normal;font-variant: normal;font-weight: normal;}#jlhlebbhengjlhmcjebbkambaekglhkf_up{text-align: center;padding:0px;margin: 0px;}#jlhlebbhengjlhmcjebbkambaekglhkf_cont{background-color: #729FCF;font-family: arial, helvetica, sans-serif-webkit-box-shadow: #729FCF 0px 0px 2px;color: #FFFFFF;padding:7px;-webkit-border-radius: 5px;}#jlhlebbhengjlhmcjebbkambaekglhkf_down{text-align: center;padding:0px;margin: 0px;}</style><style type="text/css">.jlhlebbhengjlhmcjebbkambaekglhkf {top: 0px; left: 0px;min-width: 30px;max-width: 300px;font-size: 13px;font-family: arial, helvetica, sans-serif;opacity: .93;padding:0px;position:absolute;display:block;z-index: 999997;font-style: normal;font-variant: normal;font-weight: normal;}#jlhlebbhengjlhmcjebbkambaekglhkf_up{text-align: center;padding:0px;margin: 0px;}#jlhlebbhengjlhmcjebbkambaekglhkf_cont{background-color: #729FCF;font-family: arial, helvetica, sans-serif-webkit-box-shadow: #729FCF 0px 0px 2px;color: #FFFFFF;padding:7px;-webkit-border-radius: 5px;}#jlhlebbhengjlhmcjebbkambaekglhkf_down{text-align: center;padding:0px;margin: 0px;}</style></head>
+<body class="home-template" data-twttr-rendered="true">
 
 
- 
-    <%= user.name %><br/> <a href="/auth/facebook/"> GO !! </a>
-<%= totleEvetns %>
-<script>
-var events = <%= events %> 
-</script>
+    <div id="cover" style="background: url(http://localhost:1337/imag/IMG_2728_JPG-1.jpg); background-position: center; ">
+       <div class="wrap">
+     <br/>
+     <br/>
+     <br/>
+	<div class="coverContent clearfix">
+		 <p id="logo" data-sitename="Ghost Timeline">
+		 			<img src="http://localhost:1337/imag/fb.png" alt=" Ghost Timeline Logo">
+		 		
+		 </p>
+     <br/>
+     <br/>
+     <br/>
+	 	<h1 class="description">Welcome to computamadre</h1> <h2><%= user.name %></h2>
+	
+
+	</div>
+</div>
+
+    </div>
+    <div id="mainwrap" class="wrap">
+        <main id="contentX" class="clearfix">
+           
+
+<!--
+
+==========================================================
+==========================================================
+==========================================================
+
+-->
+<% for(var index in events){%>
+
+    <section id="testbla"class="article clearfix post tag-mount-everest tag-mister-wayne tag-jimmy-kimmel featured article-first article-even">
+
+<div class="article-meta">
+    
+            <span class="dot"><i class="fa fa-clock-o"></i></span>
+            <time datetime="{{date}}"><%=events[index].time%></time>
+        </div>
+        <div class="article-main ">
+            <article class="inner"><i class="fa fa-bookmark"></i>
+                <section class="article-content" data-twttr-id="twttr-sandbox-0">
+                     <h2 class="title"><a rel="bookmark" href="http://timeline.ghostthemes.me/little-bit-of-everything-2/"
+                                          title="{{title}}"><%=events[index].title%></a></h2>
+                    <p><%=events[index].description%></p>
+
+                </section>
+                <footer class="meta">
+                    <span class="post-tags"><i class="fa fa-tags"></i> Tags:
+                    <%for(var index in events[index].interests){%>
+                        <%=events[index].interests[index]%>
+                    <%}%></span>
+                    <div class="meta-b">
+                        <a class="more" href="http://timeline.ghostthemes.me/little-bit-of-everything-2/">
+                            <i class="fa fa-link"></i> View Post</a>
+                        <span class="author-name"><i class="fa fa-pencil"></i> By: Chuck Norris</span>
+                    </div>
+  
+                </footer>
+            </article>
+        </div>
+    </section>
+   <%}%>
+<!--
+
+==========================================================
+==========================================================
+==========================================================
+
+--> 
+    </main></div>
+    <a href="/auth/facebook/"> GO !! </a>
+    <script src="./Ghost Timeline_files/jquery.js"></script>
+    <script type="text/javascript" src="./Ghost Timeline_files/FitVids.js"></script>
+    <script type="text/javascript" src="./Ghost Timeline_files/Scrolly.js"></script>
+    <script type="text/javascript" src="./Ghost Timeline_files/scripts.js"></script>
+</body></html>

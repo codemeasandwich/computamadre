@@ -67,7 +67,7 @@ module.exports = {
         var foundArray = new Array();
         for(var eventName in hashMap){
             var event = hashMap[eventName];
-            console.log("66",event);
+          //  console.log("66",event);
             var description = event["dc:description"].toLowerCase();
             //console.log("68",description);
             for(var key in tageArray){
@@ -92,7 +92,8 @@ module.exports = {
                 for(var pointer in wordlist){
                     var word = wordlist[pointer];
                    // console.log(" checking for "+word);
-                    if(description.search(word) >= 0 ){
+                    if(//word.length > 2 &&
+                       description.search(word) >= 0 ){
                      //   console.log(" FOUND "+word);
                         tagsFound.push(word);
                         weFOUNDsomething = true;
@@ -114,18 +115,24 @@ module.exports = {
             }
             count++;
         }
-          
+          var tempArray = []
           for(var index in foundArray){
-              console.log(" 119 we found",foundArray[index]["dc:title"])
+              //console.log(" 119 we found",foundArray[index]["dc:title"])
+              console.log(foundArray[index]);
+              tempArray[tempArray.length] = {
+                title:foundArray[index]["dc:title"],
+                time:foundArray[index]["lpgc:fechainicio"].split(" ")[0],
+                info:foundArray[index]["lpgc:informacion"],
+                description:foundArray[index]["dc:description"],
+                interests:foundArray[index]["interests"],
+                }
           }
           
-      console.log("122", foundArray.toString());
-      console.log("123", JSON.stringify(foundArray));
-      
+    
       res.view('homepage',{
          totleEvetns:count,
           user: req.user,
-         events:foundArray    
+         events:tempArray    
        });      
   
       });

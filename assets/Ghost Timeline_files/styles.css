@@ -1,0 +1,105 @@
+html,button,input,select,textarea{color:#222;}
+body{font-weight:300; font-size:1rem;line-height:1.5rem;background:#EDECE4;color:#7E878B;font-family:"Open Sans",arial,sans-serif;}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}
+img{vertical-align:middle;max-width:100%;}
+fieldset{border:0;margin:0;padding:0;}
+textarea{resize:vertical;}
+.chromeframe{background:#ccc;color:#000;margin:.2em 0;padding:.2em 0;}
+.ir{background-color:transparent;border:0;overflow:hidden;text-indent:-9999px;}
+.ir:before{content:"";display:block;width:0;height:150%;}
+.hidden{display:none!important;visibility:hidden;}
+.clearfix:before,.clearfix:after{content:" ";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+h1,h2,h3{color:#111;font-weight:300;}
+h3,h4{color:#98B451;font-weight:400;}
+h5,h6{color:#5BA4E5;font-weight:400;}
+.title{font-size:2em; line-height:1em; margin-top:.2em}
+.title a {color:#111;}
+table{width:100%;border-collapse:collapse;}
+tr:nth-of-type(even){background:#EDECE4;}
+th{background:#98B451;color:#fff;font-weight:400;}
+td,th{border:1px solid #ccc;text-align:left;padding:.3em;}
+a{color:#5BA4E5;text-decoration:none;}
+.pagination{clear:both;text-align:center;margin-bottom:0;padding:.5em 0;}
+.newer-posts,.older-posts{font-size:2em;color:#7E878B;}
+.newer-posts{padding-right:.5em;}
+.older-posts{padding-left:.5em;}
+.nolink {opacity:.1}
+a:hover{color:#98B451;}
+.wrap{position:relative;max-width:1000px;margin:auto;padding:0 1.5em;}
+#cover{font-weight:300; min-height:10em;text-align:center;background-size:cover!important;background-color:#98B451;-webkit-box-shadow:inset 0 -5px 10px 0 rgba(0,0,0,0.1);-moz-box-shadow:inset 0 -5px 10px 0 rgba(0,0,0,0.1);box-shadow:inset 0 -5px 10px 0 rgba(0,0,0,0.1);padding:5em 0;}
+#cover,#cover a{color:#fff;text-shadow:2px 1px 1px rgba(0,0,0,0.3);border-color:#fff;}
+.post-template #cover{max-height:10em;line-height:5em;padding:1em 0;}
+.post-template #cover #logo{float:left;max-width:50%;}
+.post-template #cover .social{float:right;max-width:50%;}
+#logo{font-family:Philosopher,sans-serif;font-size:3em;margin:0;}
+#topbar{height:2em;width:100%;position:fixed;top:0;left:0;background:#7E878B;color:#fff;z-index:1000;display:none;padding:.3em 0;}
+#topbar img{max-height:250%;}
+#topbar .inner{padding:0 1em;}
+#content{background:url(../images/bg-content.png) 13% 0 repeat-y;height:100%;width:100%;padding:1.5em 0 2.5em;}
+.post-template #content {background:none}
+#footer,#pagwrap{background:#fff;border-top:1px solid #d5d5d5;position:relative;clear:both;text-align:center;}
+#footer{background:#7E878B;color:#ccc;font-size:.75em;padding:1em 0 .5em;}
+#footer p{margin-bottom:.5em;}
+#footer a{color:#ccc;text-decoration:underline;}
+#footer a:hover{text-decoration:none;}
+.inner{padding:1em 1.5em;}
+.article{padding-bottom:3em;position:relative;}
+.article.article-first{padding-top:0; margin-top:1.5em}
+.article .inner{position:relative;background:#fff;border:1px solid #d7d6d2;border-radius:3px;overflow:hidden;box-shadow:0 1px 5px rgba(0,0,0,0.05);clear:both;}
+.article.featured .article-main .inner .fa-bookmark {position:absolute; top:-.25em; right:.25em; opacity:.2; font-size:3em}
+.article.author-box .inner {overflow:visible;}
+.article-last{margin-bottom:0;}
+.article-main{width:82%;margin-left:5%;float:left; position: relative;}
+.article-meta{width:13%;float:left;position:relative;}
+.article-single .article-main {clear:both; padding-top:1em; width:100%; float:none; margin:0}
+.dot{width:1em;height:1em;display:block;line-height:1em;font-size:1em;background:#EDECE4;float:right;color:#98B451;text-align:center;margin:.2em -.5em 0 0;}
+.article-meta time{background:#EDECE4;border:1px solid #98B451;color:#98B451;border-radius:3px;font-size:.75em;display:block;float:right;max-width:80%;margin:0 .5em 0 0;padding:.2em .8em;}
+blockquote{position:relative;font-size:1.2em;font-family:Georgia, Times, "Times New Roman", serif;font-style:italic;min-height:3em;margin:1.5em 0;padding:0 1em 0 4em;}
+blockquote p{margin:0; line-height:2}
+blockquote .fa-quote-left{font-size:3em;z-index:0;position:absolute;opacity:.1;top:0;left:0;}
+.article-content{position:relative;clear:both;width:100%;}
+.meta{font-size:.75em;border-top:1px dotted #eee;margin-top:2em;clear:both;}
+.more{float:right;}
+.sharelink{color:#7E878B;}
+.sharelink.fa-twitter:hover{color:#4099FF;}
+.sharelink.fa-facebook:hover{color:#48649F;}
+.sharelink.fa-pinterest:hover{color:#CF1F29;}
+.sharelink.fa-google-plus:hover{color:#D34836;}
+.post-tags,.share{display:block;float:left;width:48%;padding-right:2%;}
+.share{float:right;padding-right:0;padding-left:2%;text-align:right;}
+.meta-b{padding-top:1em;}
+.social{padding:.5em 0;}
+.social a,a.fa-arrow-up{display:inline-block;width:1.5em;height:1.5em;border-bottom:2px solid #7E878B;color:#7E878B;border-radius:.75em;text-align:center;line-height:1.28em;font-size:1.5em;opacity:.7;margin:.1em;}
+.social a:hover,a.fa-arrow-up:hover{opacity:1;}
+#topbar .social{float:right;padding:0;}
+#topbar .social a,a.fa-arrow-up{display:inline;width:auto;height:auto;border:0;font-size:1.3em;line-height:1.5;color:#fff;}
+a.fa-arrow-up{text-transform:uppercase;}
+::-moz-selection,::selection{background:#b3d4fc;text-shadow:none;}
+.page-number,.post-template #cover .description,#topbar .description,#topbar #logo{display:none;}
+.coverContent,.article iframe{width:100%;}
+.author-box {font-size:.8em}
+.author-box img {display:block; float: left; margin:0 1em 1em 0; max-width: 100px; border-radius:100px; border:5px solid #fff; box-shadow:0px 5px 3px rgba(50, 50, 50, 0.3);}
+.author-box .fa-pencil {position:absolute; right:.5em; top:.5rm; opacity:.2}
+
+@media screen and (max-width: 767px) {
+#content{background-position:0 0;}
+.article .inner{margin-left:1em;}
+.article.article-single .inner,
+.article.author-box .inner {margin-left: 0}
+.article-main{width:100%;margin-left:0;float:none;}
+.article-meta,.post-tags,.share{width:100%;float:none;position:relative;text-align:left;padding:0;}
+.share {padding-bottom: 1em;}
+.dot{float:left;margin:.2em 0 0 -.5em;}
+.article-meta time{float:left;margin:0 0 1em .8em;}
+blockquote{font-size:1em;}
+}
+
+@media screen and (max-width: 600px) {
+body{font-size:14px;}
+#cover{min-height:auto;font-size:1em;line-height:1.2;padding:20px 0;}
+.post-template #cover{height:auto;min-height:2em;line-height:1em;padding:.5em 0;}
+.post-template #cover #logo{float:left;max-width:20%;margin-bottom:0;}
+.post-template #cover .social{float:right;text-align:right;padding-top:2em;font-size:.7em;max-width:80%;}
+}
