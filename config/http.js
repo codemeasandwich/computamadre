@@ -16,11 +16,7 @@ var verifyHandler = function(token, tokenSecret, profile, done) {
   
   process.nextTick(function() {
     User.findOne({uid: profile.id}, function(err, user) {
-      
-      
-      
-      
-      
+
     if (user) {
       user.token = token;
       return done(null, user);
